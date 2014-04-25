@@ -1,0 +1,26 @@
+94102	415/510/619/650	Pacific	General	31,176
+94103	415/510/650/707	Pacific	General	27,170
+94104	408/415/510/650/831/925	Pacific	General	406
+94105	310/415/510/650	Pacific	General	5,846
+94107	408/415/510/650	Pacific	General	26,599
+94108	415/510/650/925	Pacific	General	13,768
+94109	415/510/650	Pacific	General	55,984
+94110	415/562	Pacific	General	69,333
+94111	415/510/650/858	Pacific	General	3,713
+94112	415/650	Pacific	General	79,407
+94114	415/510/916	Pacific	General	31,124
+94115	415/510	Pacific	General	33,021
+94116	415	Pacific	General	43,698
+94117	415/510	Pacific	General	39,169
+94118	415/510	Pacific	General	38,319
+94119	415	Pacific	P.O. Box	0
+94120	415/650	Pacific	P.O. Box	0
+94121	415/858	Pacific	General	41,203
+94122	415/619	Pacific	General	56,023
+94123	415/707	Pacific	General	23,088
+94124	415/510	Pacific	General	33,996
+94125	415/650	Pacific	P.O. Box	0
+94126	415	Pacific	P.O. Box	0
+94127	415/650	Pacific	General	19,289
+94128	650	Pacific	General	69
+94129	415	Pacific	General	3,183
