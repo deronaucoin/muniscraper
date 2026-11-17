@@ -4,6 +4,7 @@ import json
 import sqlite3
 import requests
 import time
+import os
 import twitter
 
 class MuniScraper():
@@ -13,10 +14,10 @@ class MuniScraper():
         self.c = None;
     
     def login(self):
-        ckey = 'REDACTED'  
-        csecret = 'REDACTED'
-        atoken = 'REDACTED'
-        asecret = 'REDACTED'
+        ckey = os.environ['TWITTER_CONSUMER_KEY']
+        csecret = os.environ['TWITTER_CONSUMER_SECRET']
+        atoken = os.environ['TWITTER_ACCESS_TOKEN']
+        asecret = os.environ['TWITTER_ACCESS_SECRET']
         self.api = twitter.Api(ckey, csecret, atoken, asecret)
         return self.api
     

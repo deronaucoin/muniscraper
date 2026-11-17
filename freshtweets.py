@@ -21,13 +21,14 @@ r = requests.get(url, params=data)
 tweets = json.loads(r.text)
  
 # "create table tweets ( date text, text text, tweetid INTEGER, tweetdata text )"
+import os
 import twitter
 
 def login():
-    ckey = 'REDACTED'  
-    csecret = 'REDACTED'
-    atoken = 'REDACTED'
-    asecret = 'REDACTED'
+    ckey = os.environ['TWITTER_CONSUMER_KEY']
+    csecret = os.environ['TWITTER_CONSUMER_SECRET']
+    atoken = os.environ['TWITTER_ACCESS_TOKEN']
+    asecret = os.environ['TWITTER_ACCESS_SECRET']
     api = twitter.Api(ckey, csecret, atoken, asecret)
     return api
  
